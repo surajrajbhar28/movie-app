@@ -21,7 +21,7 @@ app.use(morgan("tiny"));
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://movie-app-frontend-8uts.onrender.com",
     credentials: true,
   })
 );
