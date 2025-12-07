@@ -34,6 +34,8 @@ const Home = () => {
     order
   );
 
+  console.log(error);
+
   const handleSearch = () => {
     setPage(1);
     setParams({ search: input, page: 1, sort, order });
