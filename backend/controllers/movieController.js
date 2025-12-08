@@ -7,10 +7,43 @@ const getAllMovies = async (req, res) => {
 
   const queryObject = {};
 
+  // if (search) {
+  //   queryObject.$or = [
+  //     { title: { $regex: search, $options: "i" } },
+  //     { description: { $regex: search, $options: "i" } },
+  //   ];
+  // }
+
   if (search) {
+    const cleanSearch = search.replace(/\s+/g, "");
+
     queryObject.$or = [
-      { title: { $regex: search, $options: "i" } },
-      { description: { $regex: search, $options: "i" } },
+      {
+        $expr: {
+          $regexMatch: {
+            input: {
+              $replaceAll: { input: "$title", find: " ", replacement: "" },
+            },
+            regex: cleanSearch,
+            options: "i",
+          },
+        },
+      },
+      {
+        $expr: {
+          $regexMatch: {
+            input: {
+              $replaceAll: {
+                input: "$description",
+                find: " ",
+                replacement: "",
+              },
+            },
+            regex: cleanSearch,
+            options: "i",
+          },
+        },
+      },
     ];
   }
 
