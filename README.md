@@ -14,6 +14,8 @@ Due to the limited timeframe:
 
 # 🎬 Movie App — MERN Assessment Project
 
+**Live Demo:** https://movie-app-frontend-8uts.onrender.com
+
 A full-stack **MERN** movie application with authentication, role-based access, movie CRUD operations, search, sorting, filtering, and pagination.
 
 ---
