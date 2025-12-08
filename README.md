@@ -2,13 +2,11 @@
 
 # ⚠️ **Important Note**
 
-This project was completed within **2–3 days** as part of an assessment.
-Due to the limited timeframe:
 
-* The application is **not fully responsive** for small screens — **best viewed on desktop**.
-* **Image upload** was not implemented because Cloudinary setup required additional time.
-* No UI/UX design (Figma) was provided, so the main focus was completing **all required functionality**.
-* All features mentioned in the assessment PDF have been fully implemented.
+* The project was built in **2–3 days**, with a focus on **completing all required functionality**.
+* Fully functional on desktop; mobile responsiveness and image upload (Cloudinary) were not included due to time constraints.
+* No UI/UX design (Figma) was provided, so priority was given to **functionality**.
+* All features mentioned in the assessment PDF have been successfully implemented.
 
 ---
 
