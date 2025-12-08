@@ -155,7 +155,7 @@ DELETE /movies/:id
 
 ### **Redux Toolkit**
 
-* Stores user info & token
+* Stores user info 
 * Manages login / register / logout
 * Ensures protected route access
 
