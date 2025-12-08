@@ -41,21 +41,21 @@ const Home = () => {
 
   const handlePageChange = (event, value) => {
     setPage(value);
-    setParams({ search, page: value, sort, order });
+    setParams({ input, page: value, sort, order });
   };
 
   const handleSortChange = (event) => {
     const value = event.target.value;
     setSort(value);
     setPage(1);
-    setParams({ search, page: 1, sort: value, order });
+    setParams({ input, page: 1, sort: value, order });
   };
 
   const handleOrderChange = (event) => {
     const value = event.target.value;
     setOrder(value);
     setPage(1);
-    setParams({ search, page: 1, sort, order: value });
+    setParams({ input, page: 1, sort, order: value });
   };
 
   if (isError)
