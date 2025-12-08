@@ -16,6 +16,12 @@ Due to the limited timeframe:
 
 **Live Demo:** https://movie-app-frontend-8uts.onrender.com
 
+| Role  | Email                                         | Password |
+| ----- | --------------------------------------------- | -------- |
+| Admin | [admin@gmail.com]() | 12345678 |
+| User  | [user@gmail.com]()   | 12345678  |
+
+
 A full-stack **MERN** movie application with authentication, role-based access, movie CRUD operations, search, sorting, filtering, and pagination.
 
 ---
