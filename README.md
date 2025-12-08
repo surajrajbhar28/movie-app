@@ -172,3 +172,22 @@ DELETE /movies/:id
 
 * Manages forms efficiently (login, register, movie add/edit)
 * Handles validation and form state
+
+### **Screenshots**
+
+#### Login
+<img width="647" height="493" alt="image" src="https://github.com/user-attachments/assets/dfa7ef92-d540-4dbd-bd6f-da136df3b2bd" />
+
+
+#### Home
+
+<img width="1909" height="914" alt="image" src="https://github.com/user-attachments/assets/6537240a-011e-4faa-a70d-3d1c36e76bcc" />
+
+#### Admin Home
+
+<img width="1918" height="912" alt="image" src="https://github.com/user-attachments/assets/a76069e9-95d8-4e5f-a5c9-61f56902b9bf" />
+
+#### Admin Movie Detail (edit and delete option)
+
+<img width="1900" height="907" alt="image" src="https://github.com/user-attachments/assets/6281da44-43cb-400a-b7fc-d9c0db3424e9" />
+
