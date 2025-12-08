@@ -168,7 +168,7 @@ DELETE /movies/:id
 * Pagination
 * Add, Update, Delete movies (admin only)
 
-### **React Query**
+### **React Hook Form**
 
 * Manages forms efficiently (login, register, movie add/edit)
 * Handles validation and form state
