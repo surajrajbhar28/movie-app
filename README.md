@@ -17,7 +17,7 @@
 ### ⚠️ Note About Render Free Tier
 
 If **nothing happens after Login or Signup**, it’s likely due to Render’s free-tier inactivity timeout.
-Render automatically puts the service into “sleep mode” if there are **no requests for 5–6 hours**.
+Render automatically puts the service into “sleep mode” if there are **no requests for 15 minutes**.
 
 When this happens, the first request can take a while to wake the server.
 
