@@ -14,6 +14,19 @@
 
 **Live Demo:** https://movie-app-frontend-8uts.onrender.com
 
+### ⚠️ Note About Render Free Tier
+
+If **nothing happens after Login or Signup**, it’s likely due to Render’s free-tier inactivity timeout.
+Render automatically puts the service into “sleep mode” if there are **no requests for 5–6 hours**.
+
+When this happens, the first request can take a while to wake the server.
+
+👉 **If the server doesn’t respond after Login or Signup, please refresh the page and try again.**
+You may need to reattempt the signup/login once the server is fully active.
+
+---
+
+
 | Role  | Email                                         | Password |
 | ----- | --------------------------------------------- | -------- |
 | Admin | [admin@gmail.com]() | 12345678 |
