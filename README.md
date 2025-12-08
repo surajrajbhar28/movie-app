@@ -183,7 +183,7 @@ DELETE /movies/:id
 
 <img width="1909" height="914" alt="image" src="https://github.com/user-attachments/assets/6537240a-011e-4faa-a70d-3d1c36e76bcc" />
 
-#### Admin Home
+#### Admin Home ( add movie option)
 
 <img width="1918" height="912" alt="image" src="https://github.com/user-attachments/assets/a76069e9-95d8-4e5f-a5c9-61f56902b9bf" />
 
