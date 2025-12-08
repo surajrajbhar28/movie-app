@@ -37,7 +37,6 @@ const Home = () => {
   const handleSearch = () => {
     setPage(1);
     setParams({ search: input, page: 1, sort, order });
-    setInput("");
   };
 
   const handlePageChange = (event, value) => {
