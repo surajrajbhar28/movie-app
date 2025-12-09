@@ -4,9 +4,7 @@
 
 
 * The project was built in **2–3 days**, with a focus on **completing all required functionality**.
-* Fully functional on desktop; mobile responsiveness and image upload (Cloudinary) were not included due to time constraints.
-* No UI/UX design (Figma) was provided, so priority was given to **functionality**.
-* All features mentioned in the assessment PDF have been successfully implemented.
+* Fully functional on desktop; and image upload (Cloudinary) were not included due to time constraints.
 
 ---
 
